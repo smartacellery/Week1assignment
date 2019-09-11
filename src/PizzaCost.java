@@ -18,7 +18,7 @@ public class PizzaCost {
         numtoppings = scan.nextInt(); //returns an int      
         totcost = baseprice + costutility + (toppingcost * numtoppings) + (baseingredients * pizzasize);
         System.out.format("The total cost of the pizza is %.2f $ \n ", totcost);
-        System.out.println("All done");
+        System.out.println("All done im full");
     }
 
 }
